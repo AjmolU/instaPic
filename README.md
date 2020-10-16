@@ -1,24 +1,9 @@
-# README
+### Hi there 👋, instaPic
+#### Great Picture sharing application
+I made this project just for fun, this project allows you to post your favorite images online for others to enjoy. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails, CSS, HTML
 
-Things you may want to cover:
+Using ruby gem CarrierWave for uploading images.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![readme.png](https://i.postimg.cc/BQ6MWxZK/readme.png)](https://postimg.cc/3Wsgm0v8)
