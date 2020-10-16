@@ -1,0 +1,14 @@
+<p>  
+  <% if @post.image.url %>
+    <%= image_tag(@post.image.url)%>
+  <% end %>
+</p>
+<p>
+  <em><%= @post.caption %></em>
+  <strong>-<%= link_to @post.user, @post.user %></strong>
+</p>
+
+<% if current_user == @post.user%>
+  <%= link_to 'Edit', edit_post_path(@post) %><br>
+  <%= link_to 'Delete', @post, method: 'delete', data: { confirm: "Are you sure?" } %>
+<% end %>
